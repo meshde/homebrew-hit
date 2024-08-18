@@ -11,7 +11,7 @@ class Hit < Formula
   uses_from_macos "ruby"
 
   def install
-    bin.install "hit"
+    bin.install "hit-cli" => "hit"
     # ENV["GEM_HOME"] = libexec
     # system "gem", "build", "#{name}.gemspec"
     # system "gem", "install", "#{name}-#{@version}.gem"
