@@ -11,11 +11,12 @@ class Hit < Formula
   uses_from_macos "ruby"
 
   def install
-    ENV["GEM_HOME"] = libexec
-    system "gem", "build", "#{name}.gemspec"
-    system "gem", "install", "#{name}-#{@version}.gem"
-    bin.install libexec/"bin/#{name}"
-    bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
+    bin.install "hit"
+    # ENV["GEM_HOME"] = libexec
+    # system "gem", "build", "#{name}.gemspec"
+    # system "gem", "install", "#{name}-#{@version}.gem"
+    # bin.install libexec/"bin/#{name}"
+    # bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
   end
 
   test do
