@@ -4,7 +4,7 @@
 class Hit < Formula
   desc ""
   homepage ""
-  url "https://github.com/meshde/hit-cli/releases/download/v0.3.2/hit-mac.tar.gz"
+  url "https://github.com/meshde/hit-cli-issues/releases/download/v0.3.2/hit-mac.tar.gz"
   sha256 "26d7b13d55a4f908feaee54bb4ab79a3ccd4e480b3c832163e55e0c534eb919d"
   license ""
 
