@@ -4,8 +4,8 @@
 class Hit < Formula
   desc ""
   homepage ""
-  url "https://github.com/meshde/hit-cli/releases/download/v0.5.0/hit-mac.tar.gz"
-  sha256 "6720edefa99b5f548b0c8054137a60616e27951d9dee1d1926ca0307aa79ce31"
+  url "https://github.com/meshde/hit-cli/releases/download/v0.5.1/hit-mac.tar.gz"
+  sha256 "2142ddb291862c7f05bb05adfb8d0bcfa3ebef7fc7ca45d5652bcc4fb406e450"
   license ""
 
   uses_from_macos "ruby"
